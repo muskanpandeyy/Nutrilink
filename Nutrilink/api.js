@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5002/api';
+// Use environment variable for API base URL (Vite exposes only variables starting with VITE_)
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5002/api';
 
 // Create axios instance with default config
 const api = axios.create({
@@ -101,4 +102,4 @@ export const reviews = {
   delete: (id) => api.delete(`/reviews/${id}`),
 };
 
-export default api; 
+export default api;

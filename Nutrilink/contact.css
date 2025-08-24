@@ -1,0 +1,60 @@
+#contact {
+    background-color: #28a745;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    min-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0 , 0 , 0 ,0);
+    columns: white;
+  }
+  body {
+    background-image: url('images/th3.jpg' ); /* Replace with your image file path */
+    background-size:contain;
+    background-position: calc();
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    margin: 0;
+    height: 50vh; /* Makes sure the background covers the whole viewport */
+}
+
+  
+  #contact h2 {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  #contact label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  #contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #contact button {
+    padding: 10px 15px;
+    background-color:#218838;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #1c7a33;
+  }
+
+  #contact input:focus, #contact textarea:focus
+  {
+    border-color: #218838;
+  }

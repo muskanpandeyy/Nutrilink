@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriLink</title>
+  <link rel="stylesheet" href="style.css">
+
+
+  <style>
+    .whatsapp-float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        right: 20px;
+        z-index: 100;
+    }
+    
+    .whatsapp-float img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99999;
+    }
+    </style>
+  </head>
+  <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">
+    <img src="images/whatsapp-icon.jpeg " alt="WhatsApp Chat">
+  </a>
+  
+  <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="history.html">Donation</a></li>
+        <li><a href="panel.html">Admin Panel</a></li> 
+        <li><a href="contact.html">contact</a></li> 
+        <li><a href="nearby-Food.html">Nearby-Food</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>NutriLink:Food Donation Service </h1>
+    <p>"Donate today, help someone in need tomorrow."</p> 
+  </section>
+
+  <section id="donate">
+    <h2>Make a Donation</h2>
+    <form id="donation-form">
+      <label for="donor">Donor Name:</label>
+      <input type="text" id="donor" name="donor" required />
+
+      <label for="donation-type">Donation Type:</label>
+      <select id="donation-type" name="donation-type">
+        <option value="food">Food</option>
+        <option value="Packaged food">Packaged Food</option>
+      </select>
+      <label for="quantity">Quantity/Amount:</label>
+      <input type="text" id="quantity" name="quantity" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p > <b>At NutriLink, we connect donors with communities in need to fight hunger. Through food donations, we aim to provide nutritious meals to those who need them most. Join us in making a difference—one meal at a time.  </b>/
+
+</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Feel free to reach out!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Food Donation. All Rights Reserved.</p>
+  </footer>
+
+  <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+    <img src="C:\Users\Pragy\Favorites\nutriLinks\food2.jpg" alt="WhatsApp" />
+</a> 
+   
+  <script src="script.js"></script>
+</body>
+</html>
